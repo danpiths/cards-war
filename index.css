@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #222;
+  color: #eee;
+  font-family: 'Roboto Mono', monospace;
+  display: flex;
+  height: 100vh;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 98vh;
+  justify-content: space-between;
+  width: 95%;
+  max-width: 425px;
+  margin: 0 auto;
+  border: 2px solid #eee;
+  border-radius: 5px;
+  align-items: center;
+}
+
+.site-title {
+  font-size: 3rem;
+  margin-top: 0.3em;
+  text-align: center;
+  color: yellowgreen;
+  text-transform: uppercase;
+}
+
+.game-update-text {
+  margin-bottom: 0.2em;
+  text-align: center;
+  text-transform: uppercase;
+  color: cadetblue;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+
+.remaining-cards-text {
+  display: none;
+  margin-bottom: 0.7em;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  color: salmon;
+}
+
+.btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.6em 1.3em;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: inherit;
+  text-transform: uppercase;
+  background: rgb(231, 231, 72);
+  color: #222;
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:focus {
+  background: #181818;
+  color: rgb(231, 231, 72);
+  cursor: pointer;
+}
+
+#draw-card {
+  align-self: stretch;
+  border-radius: 30px 30px 2px 2px;
+}
+
+#draw-card:hover,
+#draw-card:focus {
+  border-radius: 15px 15px 2px 2px;
+}
+
+.score {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+
+.card {
+  height: 140px;
+  width: 100px;
+  border: 1px solid rgb(231, 231, 72);
+  border-radius: 5px;
+}
+
+#card-2,
+#card-1 {
+  margin: 10px auto;
+}
