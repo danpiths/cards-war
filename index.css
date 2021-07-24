@@ -96,7 +96,7 @@ body {
 .card {
   height: 140px;
   width: 100px;
-  border: 1px solid rgb(231, 231, 72);
+  border: 2px solid rgb(231, 231, 72);
   border-radius: 5px;
 }
 
