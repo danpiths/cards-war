@@ -37,7 +37,7 @@ body {
 }
 
 .game-update-text {
-  margin-bottom: 0.2em;
+  margin-bottom: 0.7em;
   text-align: center;
   text-transform: uppercase;
   color: cadetblue;
@@ -47,7 +47,7 @@ body {
 
 .remaining-cards-text {
   display: none;
-  margin-bottom: 0.7em;
+  margin-bottom: 0.2em;
   text-align: center;
   text-transform: uppercase;
   font-weight: 500;
