@@ -109,3 +109,19 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.disabled-btn {
+  background: rgb(54, 54, 54);
+  color: rgb(24, 24, 24);
+}
+
+.disabled-btn:hover,
+.disabled-btn:focus {
+  background: rgb(54, 54, 54);
+  color: rgb(24, 24, 24);
+  cursor: default;
+}
+
+.disabled-btn:hover {
+  cursor: not-allowed;
+}
