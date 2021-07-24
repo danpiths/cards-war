@@ -43,6 +43,8 @@ body {
   color: cadetblue;
   font-weight: 500;
   letter-spacing: 1px;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 .remaining-cards-text {
@@ -53,6 +55,8 @@ body {
   font-weight: 500;
   letter-spacing: 1px;
   color: salmon;
+  margin-right: 0.5em;
+  margin-left: 0.5em;
 }
 
 .btn {
@@ -124,4 +128,8 @@ body {
 
 .disabled-btn:hover {
   cursor: not-allowed;
+}
+
+.salmon-color {
+  color: salmon;
 }
