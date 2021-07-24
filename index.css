@@ -97,10 +97,15 @@ body {
   height: 140px;
   width: 100px;
   border: 2px solid rgb(231, 231, 72);
-  border-radius: 5px;
+  border-radius: 7px;
 }
 
 #card-2,
 #card-1 {
   margin: 10px auto;
+}
+
+.card > img {
+  height: 100%;
+  width: 100%;
 }
