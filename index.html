@@ -8,22 +8,26 @@
     <title>War</title>
   </head>
   <body>
-    <h1 class="site-title">War</h1>
-    <button class="btn" id="shuffle-deck">Shuffle Deck</button>
+    <div class="container">
+      <h1 class="site-title">War</h1>
+      <button class="btn" id="shuffle-deck">Shuffle Deck</button>
 
-    <div class="cards-container">
-      <div class="item-container">
-        <p class="score">Computer Score: <span id="computer-score">0</span></p>
-        <div class="card" id="card-1"></div>
+      <div class="cards-container">
+        <div class="item-container">
+          <p class="score">
+            Computer Score: <span id="computer-score">0</span>
+          </p>
+          <div class="card" id="card-1"></div>
+        </div>
+
+        <div class="item-container">
+          <p class="score">Player Score: <span id="player-score">0</span></p>
+          <div class="card" id="card-2"></div>
+        </div>
       </div>
 
-      <div class="item-container">
-        <p class="score">Player Score: <span id="player-score">0</span></p>
-        <div class="card" id="card-2"></div>
-      </div>
+      <button class="btn" id="draw-card">Draw Cards</button>
     </div>
-
-    <button class="btn" id="draw-card">Draw Cards</button>
 
     <script src="./index.js"></script>
   </body>
